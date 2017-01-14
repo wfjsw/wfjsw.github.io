@@ -6,7 +6,7 @@
             var source = JSON.parse(document.getElementById('input').value);
             var ovpn = window.atob(source.content);
             var out = /36\/(.+\s.{16})/.exec(ovpn);
-            document.getElementById('output').value = out;
+            document.getElementById('output').value = out[1];
         }
         </script>
     </head>
