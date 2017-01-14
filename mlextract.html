@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+    <head>
+        <script>
+        function transform(){
+            var source = JSON.parse(document.getElementById('input').textContent);
+            var ovpn = window.atob(source.content);
+            var out = /36\/(.+\s.{16})/.exec(ovpn);
+            document.getElementById('output').textContent = out;
+        }
+        </script>
+    </head>
+    <body>
+        <a href='http://121.43.189.76:8888/app_api/down.php?id=170&username=20170114&password=20170114'>Get Input</a>
+        <textarea id='input'></textarea>
+        <input type='button' value='Transform' onclick='transform();'>
+        <textarea id='output'></textarea>
+</html>
