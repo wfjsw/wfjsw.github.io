@@ -1,0 +1,79 @@
+@import "fontawesome/fontawesome.scss";
+@import "fontawesome/fa-brands.scss";
+@import "fontawesome/fa-regular.scss";
+@import "fontawesome/fa-solid.scss";
+@import "../../node_modules/unsemantic/assets/sass/unsemantic-grid-responsive.scss";
+
+@import "header.scss";
+@import "identities.scss";
+
+@import "chem-elements.scss";
+
+body {
+    font-size: 1em;
+    margin: 0;
+}
+
+html {
+    background: url('../images/nat-pants.png');
+    font-family: "Helvetica Neue", Helvetica, Arial, PingFangTC-Light, "Microsoft YaHei", 微软雅黑, "STHeiti Light", STXihei, "华文细黑", Heiti, 黑体, sans-serif;
+}
+
+.copyright {
+    background: #2b5045;
+    color: #ddd;
+    font-size: 0.9em;
+    line-height: 2em;
+    padding: 0.5em 1em;
+}
+
+.header .greeting .chem-element {
+    text-decoration: none;
+}
+
+.hosting {
+    background: #38685a;
+    color: #eee;
+    font-size: 0.9em;
+    font-weight: normal;
+    display: block;
+    padding: 0.75em 1em;
+    text-decoration: none;
+}
+
+.hosting .link {
+    color: #acd;
+}
+
+.main-container {
+    background: #476685;
+    box-shadow: inset 0 0 0.15em 0.15em rgba(0, 0, 0, 0.125); 
+    padding-bottom: 1em;
+}
+
+.no-wrap {
+    display: inline-block;
+}
+
+.section {
+    margin: 1em auto;
+    max-width: 64em;
+}
+
+.section.shadow {
+    box-shadow: 0 0 0.15em 0.15em rgba(0, 0, 0, 0.125);
+}
+
+.acknowledgement {
+    background: #2f8a82;
+    color: #eee;
+    font-size: 0.9em;
+    font-weight: normal;
+    display: block;
+    padding: 0.75em 1em;
+    text-decoration: none;
+}
+
+.acknowledgement .link {
+    color: #9dddc1;
+}
